@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Simplifica';
+	src: url('fonts/SIMPLIFICA.ttf');
+}
+
+.navbar {
+	font-size: 30px;
+	text-align: center;
+	color: #a8a5a1;
+	font-family: 'Simplifica';
+	float: right;
+}
+
+.navbar ul {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	margin: 0px;
+	position: relative;
+}
+
+.navbar li {
+	display: inline;
+	padding: 20px;
+	float: right;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #98e597;
+}
+
+.navbar a:hover {
+	color: white;
+	background-color: #98e597;
+}

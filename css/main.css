@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'HipsterishFontNormal';
+	src: url('fonts/HipsterishFontNormal.ttf');
+}
+
+body {
+	background: url('../img/bg.jpeg');
+}
+
+h1 {
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    font-family: 'HipsterishFontNormal';
+    font-size: 75px;
+}
+
+h3 {
+	line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    font-family: 'HipsterishFontNormal';
+    font-size: 30px;
+}
