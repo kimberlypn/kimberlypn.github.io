@@ -9,6 +9,8 @@
 	color: #a8a5a1;
 	font-family: 'Simplifica';
 	float: right;
+	width: 100%;
+	padding-top: 10px;
 }
 
 .navbar ul {

@@ -7,7 +7,7 @@ body {
 	background: url('../img/bg.jpeg');
 }
 
-h1 {
+.header {
     line-height: 200px;
     margin: auto;
     margin-top: -100px;
@@ -18,7 +18,7 @@ h1 {
     font-size: 75px;
 }
 
-h3 {
+.pitch {
 	line-height: 200px;
     margin: auto;
     margin-top: -100px;
