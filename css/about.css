@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'HipsterishFontNormal', Tahoma;
-	src: url('fonts/HipsterishFontNormal.ttf');
+	src: url('../fonts/HipsterishFontNormal.ttf');
 }
 
 .squares {
