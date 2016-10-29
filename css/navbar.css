@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Simplifica';
+	font-family: 'SIMPLIFICA';
 	src: url('../fonts/SIMPLIFICA.ttf');
 }
 
@@ -8,7 +8,7 @@
 	text-align: center;
 	color: #a8a5a1;
 	display: block;
-	font-family: 'Simplifica';
+	font-family: 'SIMPLIFICA';
 	float: right;
 	width: 100%;
 }

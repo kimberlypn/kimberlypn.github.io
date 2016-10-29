@@ -1,6 +1,8 @@
 @font-face {
-	font-family: 'HipsterishFontNormal';
-	src: url('../fonts/HipsterishFontNormal.ttf');
+    font-family: 'HipsterishFontNormal';
+    src: url('../fonts/HipsterishFontNormal.ttf');
+    font-family: 'SIMPLIFICA';
+    src: url('../fonts/SIMPLIFICA.ttf');
 }
 
 #footer {

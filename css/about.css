@@ -34,7 +34,6 @@
 
 .squares:hover {
 	opacity: 1;
-	content: 'ADD';
 }
 
 .content {
