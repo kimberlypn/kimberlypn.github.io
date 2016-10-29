@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'HipsterishFontNormal';
+	src: url('../fonts/HipsterishFontNormal.ttf');
+	font-family: 'SIMPLIFICA';
+	src: url('../fonts/SIMPLIFICA.ttf');
+}
+
+body {
+  min-width: 550px;      /* 2x LC width + RC width */
+}
+
+#container {
+	padding-top: 100px;
+	padding-left: 300px;   /* LC width */
+	padding-right: 150px;  /* RC width */
+}
+#container .column {
+	position: relative;
+	float: left;
+}
+
+#center {
+	width: 100%;
+	font-family: 'SIMPLIFICA';
+	font-size: 20px;
+}
+
+#left {
+	width: 200px;          /* LC width */
+	right: 200px;          /* LC width */
+	margin-left: -100%;
+	font-family: 'HipsterishFontNormal';
+	font-size: 30px;
+}
+
+#right {
+	width: 150px;          /* RC width */
+	margin-right: -150px;  /* RC width */
+	font-family: 'SIMPLIFICA';
+	font-size: 20px;
+}
+
+#footer {
+	clear: both;
+}
+
+/*** IE6 Fix ***/
+* html #left {
+	left: 150px;           /* RC width */
+}
+
+#title {
+	color: #94c8ef;
+	font-size: 28px;
+	display: inline;
+}
+
+p {
+	margin: 0.2em;
+}
+
+#date {
+	display: inline;
+	padding-left: 400px;
+}
+#tab {
+	padding-left: 35px;
+}
