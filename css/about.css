@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'HipsterishFontNormal';
 	src: url('../fonts/HipsterishFontNormal.ttf');
+	font-family: 'SIMPLIFICA';
+	src: url('../fonts/SIMPLIFICA.ttf');
 }
 
 .squares {
@@ -17,6 +19,7 @@
 
 .squares:hover {
 	opacity: 1;
+	content: 'ADD';
 }
 
 .content {
@@ -40,7 +43,13 @@
     width:100%;
 }
 
-.parent {
-	font-size: 40px;
+.parent p {
+	font-size: 60px;
 	font-family: 'HipsterishFontNormal';
+	line-height: 0em;
+}
+
+.description p {
+	font-size: 25px;
+	font-family: 'SIMPLIFICA';
 }

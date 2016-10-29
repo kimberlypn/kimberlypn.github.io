@@ -7,10 +7,10 @@
 	font-size: 30px;
 	text-align: center;
 	color: #a8a5a1;
+	display: block;
 	font-family: 'Simplifica';
 	float: right;
 	width: 100%;
-	padding-top: 10px;
 }
 
 .navbar ul {
@@ -23,16 +23,28 @@
 
 .navbar li {
 	display: inline;
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
 	float: right;
 }
 
-.navbar a {
+.navbar a:link {
+	text-decoration: none;
+	color: #98e597;
+}
+
+.navbar a:visited {
 	text-decoration: none;
 	color: #98e597;
 }
 
 .navbar a:hover {
+	text-decoration: none;
+	background: #98e597;
 	color: white;
-	background-color: #98e597;
+	float: right;
+}
+
+.navbar a:active {
+	text-decoration: none;
+	color: #98e597;
 }
