@@ -5,64 +5,93 @@
 	src: url('../fonts/SIMPLIFICA.ttf');
 }
 
-body {
-  min-width: 550px;      /* 2x LC width + RC width */
+.colmask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 91%;
+   padding: 50px 50px;
+   letter-spacing: 0.5px;
 }
 
-#container {
-	padding-top: 100px;
-	padding-left: 300px;   /* LC width */
-	padding-right: 150px;  /* RC width */
-}
-#container .column {
-	position: relative;
-	float: left;
+.header{
+   float: left;
+   width: 100%;
+
 }
 
-#center {
-	width: 100%;
-	font-family: 'SIMPLIFICA';
-	font-size: 20px;
+.colmid{
+   position: relative;
+   width: 100%;
+   right: 18%;
+   text-align: left;
+
 }
 
-#left {
-	width: 200px;          /* LC width */
-	right: 200px;          /* LC width */
-	margin-left: -100%;
-	font-family: 'HipsterishFontNormal';
-	font-size: 30px;
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 63%;
 }
 
-#right {
-	width: 150px;          /* RC width */
-	margin-right: -150px;  /* RC width */
-	font-family: 'SIMPLIFICA';
-	font-size: 20px;
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 61%;
+   left: 101%;
 }
 
-#footer {
-	clear: both;
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 17%;
+   left: 21%;}
+
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 16%;
+   left: 86%;
 }
 
-/*** IE6 Fix ***/
-* html #left {
-	left: 150px;           /* RC width */
+.footer{
+   float: left;
+   width: 100%;
+
+}
+
+#section {
+   font-size: 28px;
+   color: white;
+   background-color: #afbfd8;
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+}
+
+#blank-section {
+   font-size: 28px;
+   color: white;
+   text-align: center;
+   padding: 5px 5px 5px 5px;
 }
 
 #title {
-	color: #94c8ef;
-	font-size: 28px;
-	display: inline;
-}
-
-p {
-	margin: 0.2em;
+   color: #94c8ef;
+   font-size: 28px;
 }
 
 #date {
-	display: inline;
-	padding-left: 400px;
+   font-size: 28px;
 }
+
 #tab {
-	padding-left: 35px;
+   padding-left: 35px;
+}
+
+p {
+   margin: 0.2em;
+   font-size: 20px;
 }
