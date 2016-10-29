@@ -2,7 +2,7 @@
 	font-family: 'HipsterishFontNormal';
 	src: url('../fonts/HipsterishFontNormal.ttf');
     font-family: 'Simplifica';
-    src: url('../../fonts/SIMPLIFICA.ttf');
+    src: url('../fonts/SIMPLIFICA.ttf');
 }
 
 body {
