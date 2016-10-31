@@ -1,27 +1,10 @@
 @font-face {
 	font-family: 'HipsterishFontNormal';
 	src: url('../fonts/HipsterishFontNormal.ttf');
-    font-family: 'SIMPLIFICA';
-    src: url('../fonts/SIMPLIFICA.ttf');
 }
 
 body {
 	background: url('../img/bg.jpeg');
-}
-
-#footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    background-color: #577493;
-    opacity: 0.3;
-    text-align: center;
-    color: white;
-    font-family: 'SIMPLIFICA';
-    letter-spacing: 0.8px;
-    font-size: 20px;
 }
 
 .header {
