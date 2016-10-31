@@ -5,21 +5,6 @@
 	src: url('../fonts/SIMPLIFICA.ttf');
 }
 
-#footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    background-color: #577493;
-    opacity: 0.3;
-    text-align: center;
-    color: white;
-    font-family: 'SIMPLIFICA';
-    letter-spacing: 0.8px;
-    font-size: 20px;
-}
-
 .colmask{
    position: relative;
    overflow: hidden;
@@ -27,6 +12,7 @@
    width: 91%;
    padding: 50px 50px;
    letter-spacing: 0.5px;
+   font-family: 'SIMPLIFICA';
 }
 
 .header{
