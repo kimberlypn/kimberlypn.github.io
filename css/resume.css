@@ -1,0 +1,96 @@
+@font-face {
+	font-family: 'SIMPLIFICA';
+	src: url('../fonts/SIMPLIFICA.ttf');
+}
+
+.colmask{
+   position: relative;
+   overflow: hidden;
+   margin: 0px auto;
+   width: 91%;
+   padding: 50px 50px;
+   letter-spacing: 0.5px;
+   font-family: 'SIMPLIFICA';
+}
+
+.header{
+   float: left;
+   width: 100%;
+
+}
+
+.colmid{
+   position: relative;
+   width: 100%;
+   right: 18%;
+   text-align: left;
+
+}
+
+.colleft{
+   position: relative;
+   width: 100%;
+   right: 63%;
+}
+
+.col1{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 61%;
+   left: 101%;
+}
+
+.col2{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 17%;
+   left: 21%;}
+
+.col3{
+   position: relative;
+   overflow: hidden;
+   float: left;
+   width: 16%;
+   left: 86%;
+}
+
+.footer{
+   float: left;
+   width: 100%;
+
+}
+
+#section {
+   font-size: 28px;
+   color: white;
+   background-color: #afbfd8;
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+}
+
+#blank-section {
+   font-size: 28px;
+   color: white;
+   text-align: center;
+   padding: 5px 5px 5px 5px;
+}
+
+#title {
+   color: #94c8ef;
+   font-size: 28px;
+}
+
+#date {
+   font-size: 28px;
+}
+
+#tab {
+   padding-left: 35px;
+}
+
+p {
+   margin: 0.2em;
+   font-size: 20px;
+}
