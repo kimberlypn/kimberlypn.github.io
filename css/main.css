@@ -34,11 +34,12 @@ body {
 }
 
 .pitch {
+    padding-top: 20px;
 	line-height: 200px;
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 43%;
+    top: 40%;
     width: 100%;
     font-family: 'HipsterishFontNormal';
     font-size: 30px;
