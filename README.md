@@ -2,4 +2,4 @@
 
 My website can be visited at [https://kimberlypn.github.io](https://kimberlypn.github.io). 
 
-It was built using HTML, CSS, and JS.
+It was built using HTML, CSS, and JavaScript.
