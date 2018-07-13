@@ -14,7 +14,7 @@ and JavaScript.
 ![About Page](screenshots/about.png)
 
 Hovering over a section reveals the description for that section.
-![About Page with Hover Effect](screenshots/about-with-hover.png)
+![About Page with Details](screenshots/about-with-details.png)
 
 **Resume**
 ![Resume Page](screenshots/resume.png)
