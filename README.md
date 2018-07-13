@@ -1,6 +1,8 @@
 # Personal Website
 
-My website can be visited at [https://kimberlypn.github.io](https://kimberlypn.github.io).
+My website can be visited at [https://kimberlypn.github.io](https://kimberlypn.github.io). 
+
+**UPDATE**: This now points to my new website, the repo of which can be found [here](https://github.com/kimberlypn/personal-website).
 
 ## Introduction
 This was my first attempt at a personal website. It was built using HTML, CSS,
